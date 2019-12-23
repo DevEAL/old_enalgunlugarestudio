@@ -1,0 +1,173 @@
+a {
+  color: #2bb673;
+}
+a:hover {
+  color: #218d59;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #2bb673;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #2bb673;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #2bb673;
+}
+#offcanvas-toggler >i {
+  color: #fff;
+}
+#offcanvas-toggler >i:hover {
+  color: #2bb673;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #259d63;
+  background-color: #2bb673;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #1c784c;
+  background-color: #218d59;
+}
+ul.social-icons >li a:hover {
+  color: #2bb673;
+}
+.sp-page-title {
+  background: #2bb673;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #000000;
+}
+.sp-module ul >li >a:hover {
+  color: #2bb673;
+}
+.sp-module .latestnews >div >a {
+  color: #000000;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #2bb673;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #2bb673;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #2bb673;
+}
+.search .btn-toolbar button {
+  background: #2bb673;
+}
+.post-format {
+  background: #2bb673;
+}
+.voting-symbol span.star.active:before {
+  color: #2bb673;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #218d59;
+}
+.entry-link,
+.entry-quote {
+  background: #2bb673;
+}
+blockquote {
+  border-color: #2bb673;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #2bb673;
+}
+#sp-footer {
+  background: #2bb673;
+}
+.sp-comingsoon body {
+  background-color: #2bb673;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #000000;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #000000;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #2bb673;
+  background-color: #2bb673;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #2bb673;
+  background-color: #2bb673;
+}
+/***** PRESET *****/
+.at-blog-category a,
+.at-project-item-center h2,
+.at-info-block-1-content:hover h5,
+.at-our-services-item:hover span i,
+.at-our-services-item:hover h5,
+.at-services-item:hover span,
+.at-faq-sec-faq h3 em,
+#at-blog div.k2ItemsBlock ul li:hover .moduleItemTitle,
+#at-slider-second span,
+.at-helpful-item:hover h5,
+.at-info-block-img-right-text strong,
+.at-introduction .at-intro-sub:hover h3,
+.at-slider .atmediumlightblack,
+.at-banner-content .sppb-addon-title,
+.at-service-item:hover h3,
+.at-sub-team h4,
+.at-history-sub .at-history-item:hover h3,
+.at-statistic i {
+    color: #2bb673!important;
+}
+.btn-main,
+#at-call-us,
+#at-slider .tp-button,
+#at-slider .excerpt,
+.at-block1-item a,
+.at-services-item,
+#at-blog div.k2ItemsBlock ul li .moduleItemReadMore,
+#at-slider-second .tp-button,
+.at-info-block-img-left a,
+.at-funfact-item::after,
+.at-action-content h2::after,
+.at-features-desc-content h3::after,
+.at-pricing-table:hover .btn,
+.at-blog-tags .k2TagCloudBlock a:hover,
+.at-our-skill .at-skill-sub p .expand,
+.at-slider .at-button:hover,
+.at-introduction .at-intro-sub i,
+.at-button:hover,
+.at-service-item:hover i,
+.at-history-sub .at-history-item:hover i {
+    background: #2bb673!important;
+}
+.at-blog-category .catCounter,
+.at-services-item span,
+.at-check-out-content a:hover,
+.blogDate {
+    background: #2bb673;
+}
+.at-slider .at-button:hover,
+.at-button:hover {
+    border: 3px solid #2bb673!important;
+}
+.at-info-block-1-content:hover img,
+.at-blog-tags .k2TagCloudBlock a:hover {
+    border-color: #2bb673!important;
+}
+h3.sppb-addon-title,
+.sppb-section-title  h3 {
+    background: url(../../images/presets/preset3/border-title.png) top left no-repeat;
+}

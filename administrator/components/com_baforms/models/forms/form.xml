@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+        <field name="id"
+            type="hidden"/>
+        <field name="title"
+            type="text"
+            label="FORM_TITLE"
+            class="inputbox validate"
+            required="true"/>
+        <field name="title_settings"
+            type="hidden"
+            description="COM_6forms_DESC"
+            class="inputbox"/>
+        <field name="form_settings"
+            type="hidden"
+            description="COM_6forms_DESC"
+            class="inputbox"/>
+        <field name="form_content" type="hidden" filter="JComponentHelper::filterText"/>
+        <field name="form_columns" type="hidden" filter="JComponentHelper::filterText"/>
+        <field name="display_title"
+            type="checkbox"
+            default="1"/>
+        <field name="display_submit"
+            type="checkbox"
+            default="1"/>
+        <field name="alow_captcha"
+            type="plugins"
+            folder="captcha"
+            default="0"
+            label="COM_CONFIG_FIELD_DEFAULT_CAPTCHA_LABEL"
+            description="COM_CONFIG_FIELD_DEFAULT_CAPTCHA_DESC"
+            required="true"
+            filter="cmd">
+            <option value="0">JOPTION_DO_NOT_USE</option>
+        </field>
+        <field name="sent_massage"
+            type="textarea"
+            filter="JComponentHelper::filterText"
+            />
+        <field name="error_massage"
+            type="textarea"
+            filter="JComponentHelper::filterText"
+            />
+        <field name="redirect_url"
+            type="text"/>
+        <field name="email_recipient"
+            type="text"/>
+        <field name="email_subject"
+            type="text"
+            default="You have a new submission"/>
+        <field name="email_body"
+            type="textarea"
+            filter="JComponentHelper::filterText"
+            default="Hello, You have a new submission from:"/>
+        <field name="sender_name"
+            type="text"
+            default="John Doe"/>
+        <field name="sender_email"
+            type="text"/>
+        <field name="reply_subject"
+            type="text"
+            default="Thank you for your submission!"/>
+        <field name="reply_body"
+            type="textarea"
+            filter="JComponentHelper::filterText"
+            default="Thank you for filling form! Your information has been successfully submitted. We will process its contents and get back to you as soon as possible."/>
+        <field name="display_popup"
+            type="checkbox"
+            default="0"/>
+        <field name="button_position"
+            type="list">
+            <option value="default">Default</option>
+            <option value="top">Top</option>
+            <option value="left">Left</option>
+            <option value="right">Right</option>
+            <option value="bottom">Bottom</option>
+        </field>
+        <field name="button_lable"
+            type="text"
+            default="Popup Button"/>
+        <field name="button_bg"
+            type="hidden"
+            default="#02adea"/>
+        <field name="button_color"
+            type="hidden"
+            default="#fafafa"/>
+        <field name="dialog_color_rgba" type="hidden" default="rgba(0, 0, 0, 0.15)"/>
+        <field name="message_color_rgba" type="hidden" default="#333333"/>
+        <field name="message_bg_rgba" type="hidden" default="#ffffff"/>
+        <field name="button_font_size" default="14" type="number"/>
+        <field name="button_weight" type="hidden" default="normal"/>
+        <field name="button_border" default="3" type="number"/>
+        <field name="marker_image" type="media"/>
+        <field name="select_image" type="media"/>
+        <field name="submit_embed"
+            type="textarea"
+            filter="JComponentHelper::filterText"/>
+        <field name="add_sender_email"
+            type="checkbox"/>
+        <field name="copy_submitted_data"
+            type="checkbox"/>
+        <field name="modal_width"
+            type="number"/>
+        <field name="display_total"
+            type="checkbox"/>
+        <field name="payment_methods"
+            type="list">
+            <option value="">CUSTOM_PAYMENT</option>
+            <option value="paypal">PAYPAL</option>
+            <option value="2checkout">2CHECKOUT</option>
+            <option value="skrill">SKRILL</option>
+            <option value="webmoney">WEBMONEY</option>
+            <option value="payu">PAYU</option>
+            <option value="stripe">Stripe</option>
+            <option value="mollie">Mollie</option>
+        </field>
+        <field name="currency_code"
+            type="text"
+            default="USD"/>
+        <field name="currency_symbol"
+            type="text"
+            default="$"/>
+        <field name="return_url"
+            type="text"/>
+        <field name="cancel_url"
+            type="text"/>
+        <field name="paypal_email"
+            type="text"/>
+        <field name="payment_environment"
+            type="list">
+            <option value="production">PRODUCTION</option>
+            <option value="sandbox">SANDBOX</option>
+        </field>
+        <field name="seller_id"
+            type="text"/>
+        <field name="secret_word"
+            type="text"/>
+        <field name="skrill_email"
+            type="text"/>
+        <field name="webmoney_purse"
+            type="text"/>
+        <field name="check_ip"
+            type="checkbox"/>
+        <field name="payu_api_key"
+            type="text"/>
+        <field name="payu_merchant_id"
+            type="text"/>
+        <field name="payu_account_id"
+            type="text"/>
+        <field name="button_type"
+            type="list">
+            <option value="button">BUTTON</option>
+            <option value="link">LINK</option>
+        </field>
+        <field name="display_cart"
+            type="checkbox"/>
+        <field name="currency_position"
+            type="list">
+            <option value="before">BEFORE</option>
+            <option value="after">AFTER</option>
+        </field>
+        <field name="multiple_payment"
+            type="checkbox"/>
+        <field name="custom_payment"
+            type="text"/>
+        <field name="mailchimp_api_key"
+            type="text"/>
+        <field name="mailchimp_list_id"
+            type="hidden"/>
+        <field name="mailchimp_fields_map"
+            default="{}"
+            type="hidden"/>
+        <field name="stripe_api_key"
+            type="text"/>
+        <field name="stripe_image" type="media"/>
+        <field name="stripe_name"
+            type="text"/>
+        <field name="stripe_description"
+            type="text"/>
+        <field name="theme_color"
+            type="hidden"
+            default="#009ddc"/>
+        <field name="email_options"
+            type="hidden"
+            default="{}"/>
+        <field name="email_letter"
+            type="hidden"
+            filter="JComponentHelper::filterText"/>
+        <field name="mollie_api_key"
+            type="text"/>
+     </fieldset>
+</form> 

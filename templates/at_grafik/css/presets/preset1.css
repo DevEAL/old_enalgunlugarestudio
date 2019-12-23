@@ -1,0 +1,190 @@
+a {
+  color: #5AADDD;
+}
+a:hover {
+  color: #0e9cd1;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #000;
+
+}
+.is-sticky .sp-megamenu-parent >li.active>a,
+.is-sticky .sp-megamenu-parent >li:hover>a
+{
+  color: #fff;
+}
+.sp-megamenu-parent >li.active,
+.sp-megamenu-parent >li:hover {
+  color: #000;
+  background-color: #fff;
+}
+.is-sticky .sp-megamenu-parent >li.active,
+.is-sticky .sp-megamenu-parent >li:hover
+{
+  color: #fff;
+  background-color: #000;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #5AADDD;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #5AADDD;
+}
+#offcanvas-toggler >i {
+  color: #fff;
+}
+#offcanvas-toggler >i:hover {
+  color: #5AADDD;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #0faae4;
+  background-color: #5AADDD;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #0d8ab9;
+  background-color: #0e9cd1;
+}
+ul.social-icons >li a:hover {
+  color: #5AADDD;
+}
+.sp-page-title {
+  background: #5AADDD;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #000000;
+}
+.sp-module ul >li >a:hover {
+  color: #5AADDD;
+}
+.sp-module .latestnews >div >a {
+  color: #000000;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #5AADDD;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #5AADDD;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #5AADDD;
+}
+.search .btn-toolbar button {
+  background: #5AADDD;
+}
+.post-format {
+  background: #5AADDD;
+}
+.voting-symbol span.star.active:before {
+  color: #5AADDD;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #0e9cd1;
+}
+.entry-link,
+.entry-quote {
+  background: #5AADDD;
+}
+blockquote {
+  border-color: #5AADDD;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #5AADDD;
+}
+#sp-footer {
+  background: #5AADDD;
+}
+.sp-comingsoon body {
+  background-color: #5AADDD;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #000000;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #000000;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #5AADDD;
+  background-color: #5AADDD;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #5AADDD;
+  background-color: #5AADDD;
+}
+/***** PRESET *****/
+.at-blog-category a,
+.at-project-item-center h2,
+.at-info-block-1-content:hover h5,
+.at-our-services-item:hover span i,
+.at-our-services-item:hover h5,
+.at-services-item:hover span,
+.at-faq-sec-faq h3 em,
+#at-blog div.k2ItemsBlock ul li:hover .moduleItemTitle,
+#at-slider-second span,
+.at-helpful-item:hover h5,
+.at-info-block-img-right-text strong,
+.at-introduction .at-intro-sub:hover h3,
+.at-slider .atmediumlightblack,
+.at-banner-content .sppb-addon-title,
+.at-service-item:hover h3,
+.at-sub-team h4,
+.at-history-sub .at-history-item:hover h3,
+.at-statistic i {
+    color: #5AADDD!important;
+}
+.btn-main,
+#at-call-us,
+#at-slider .tp-button,
+#at-slider .excerpt,
+.at-block1-item a,
+.at-services-item,
+#at-blog div.k2ItemsBlock ul li .moduleItemReadMore,
+#at-slider-second .tp-button,
+.at-info-block-img-left a,
+.at-funfact-item::after,
+.at-action-content h2::after,
+.at-features-desc-content h3::after,
+.at-pricing-table:hover .btn,
+.at-blog-tags .k2TagCloudBlock a:hover,
+.at-our-skill .at-skill-sub p .expand,
+.at-slider .at-button:hover,
+.at-introduction .at-intro-sub i,
+.at-button:hover,
+.at-service-item:hover i,
+.at-history-sub .at-history-item:hover i {
+    background: #5AADDD!important;
+}
+.at-blog-category .catCounter,
+.at-services-item span,
+.at-check-out-content a:hover,
+.blogDate {
+    background: #5AADDD;
+}
+.at-slider .at-button:hover,
+.at-button:hover {
+    border: 3px solid #5AADDD!important;
+}
+.at-info-block-1-content:hover img,
+.at-blog-tags .k2TagCloudBlock a:hover {
+    border-color: #5AADDD!important;
+}
+h3.sppb-addon-title,
+.sppb-section-title  h3 {
+    background: url(../../images/presets/preset1/border-title.png) top left no-repeat;
+}
